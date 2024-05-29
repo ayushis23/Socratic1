@@ -1,4 +1,4 @@
-from src.Pencil import Pencil
+
 from src.Plotter import Plotter
 from src.Vision import Vision
 import argparse
@@ -8,7 +8,7 @@ class Socratic:
     def __init__(self):
         self.vision = Vision()
         self.plotter = Plotter()
-        self.pencil = Pencil()
+       
 
     def solve(self, option):
         if option == "equation":
